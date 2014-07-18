@@ -1,0 +1,7 @@
+defaults: &defaults
+
+development:
+  <<: *defaults
+  customer:
+    id:   'ID'
+    name: '名前'
